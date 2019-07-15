@@ -25,6 +25,9 @@ public class MyRealm extends AuthorizingRealm {
         System.out.println(primaryPrincipal.toString());
         Set<String> roleName = new HashSet<String>();
         roleName.add("role1");
+
+        System.out.println("roleName = " + roleName);
+
         Set<String> permission = new HashSet<String>();
         permission.add("user:add");
         permission.add("user:update");
