@@ -8,6 +8,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * Unit test for simple App.
  */
 
+
+
 public class AppTest {
     public static void main(String[] args) {
         final TheData myData=new TheData();  //这是各线程的共享数据
